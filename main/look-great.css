@@ -1,0 +1,28 @@
+.look-great-section{
+    background-color:rgba(145, 104, 10, 1);
+    padding:100px 0;
+    margin-top:60px;
+}
+
+.look-great-section-content{
+    padding:0 0 0 70px;
+}
+
+.look-great-header{
+    font-size:60px;
+    font-weight:200;
+    white-space:nowrap;
+}
+
+@media (max-width:680px){
+    .look-great-section-content{
+        padding:0;
+    }
+
+    .look-great-header{
+        font-size:40px;
+        font-weight:200;
+        white-space:nowrap;
+    }
+
+}

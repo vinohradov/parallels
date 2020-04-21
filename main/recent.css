@@ -1,0 +1,56 @@
+.recent-header:after{
+    content: " ";
+    position: absolute;
+    left: 120px;
+    right: 0;
+    top: 51px;
+    display: inline-block;
+    width: 254px;
+    height: 2px;
+    background: gray;
+    text-align:center;
+}
+
+
+.recent-header{
+    font-size:25px;
+    font-weight:600;
+}
+
+.recent-icon{
+
+}
+
+.recent-images{
+    text-align:left;
+    padding:50px 0 0 30px;
+    margin:0 auto;
+}
+
+.recent-text{
+    padding-top:50px;
+    font-size:20px;
+    color:darkgrey;
+    font-weight:400;
+}
+
+
+@media (max-width:1400px){
+    .recent-header:after{
+        display:none;
+    }
+
+    .recent-column{
+        padding-top:50px;
+    }
+
+
+    .recent-text{
+        padding-top:20px;
+    }
+
+    .recent-images{
+        padding: 50px 0 0 15px;
+
+    }
+}

@@ -1,0 +1,36 @@
+.portfolio-button{
+    display: inline-block;
+    padding: 15px 3px;
+    min-width:150px;
+    border:0;
+    text-transform: uppercase;
+    font-weight:700;
+    transition:0.5s;
+    color:#ffffff;
+    text-align:center;
+    border-radius:3px;
+    background-color: #313338;
+    margin-top:5px;
+}
+
+.portfolio-button:hover{
+    background-color: #1f937d;
+    transition:0.5s;
+}
+
+.portfolio-section{
+    padding:0 100px;
+}
+
+.portfolio-article{
+    background-color: #313338;
+    margin-top:25px;
+    height:270px;
+}
+
+@media (max-width:1200px){
+    .portfolio-section{
+        padding:50px;
+    }
+
+}
