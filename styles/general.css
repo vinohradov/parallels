@@ -108,6 +108,16 @@ a:hover{
     padding-bottom:30px;
 }
 
+.padding-left{
+    padding-left:150px;
+}
+
+@media (max-width:1200px){
+    .padding-left{
+        padding-left:0;
+    }
+}
+
 @media (max-width:970px){
     .very-big-header{
         font-size:28px;
@@ -116,3 +126,6 @@ a:hover{
     }
 }
 
+.clients-about-us-quotes{
+    font-size:500px;
+}
