@@ -18,6 +18,16 @@
     padding:0 100px;
 }
 
+.our-services-circle{
+    font-size:40px;
+    color:chartreuse;
+}
+
+.our-services-circle i{
+    margin-top:30px;
+}
+
+
 @media (max-width:600px){
     .our-services-section{
         padding:0 50px;
