@@ -1,0 +1,49 @@
+.carousel-section{
+    position:relative;
+    padding-bottom:60px;
+}
+
+.carousel-text{
+    position:absolute;
+    left:100px;
+    top:300px;
+    color:black;
+}
+
+.carousel-left-quote{
+    left:250px;
+    top:100px;
+    text-align: center;
+
+}
+
+.carousel-right-quote{
+    left:800px;
+    top:100px;
+    text-align: center;
+}
+
+
+.carousel-left-quote, .carousel-right-quote{
+    position:absolute;
+    color:grey;
+    font-size:100px;
+}
+
+
+@media (max-width:1200px){
+    .carousel-text{
+        top:100px;
+        left:0;
+    }
+
+    .carousel-left-quote, .carousel-right-quote{
+        display:none;
+    }
+}
+
+@media (max-width:725px){
+    .carousel-text{
+        top:10px;
+    }
+}

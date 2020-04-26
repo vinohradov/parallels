@@ -33,11 +33,13 @@
 .portfolio-hover-block{
     background-color: #212121;
     transition:0.5s;
-    opacity:1;
-    width:200px;
-    height:200px;
+    opacity:0;
+    right:25px;
+    left:25px;
+    top:25px;
+    bottom:25px;
     position:absolute;
-    margin-top:35px;
+
 }
 
 .portfolio-hover-block:hover{
@@ -47,19 +49,6 @@
 
 
 
-@media (max-width:1040px){
-    .portfolio-hover-block{
-        width:140px;
-        height:150px;
-    }
-}
-
-@media (max-width:767px){
-    .portfolio-hover-block{
-        width:200px;
-        height:200px;
-    }
-}
 
 @media (max-width:1200px){
     .portfolio-section{
