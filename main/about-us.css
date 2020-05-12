@@ -8,6 +8,15 @@
     white-space:nowrap;
 }
 
+.about-us-text{
+    margin:0 auto;
+}
+
+
+.about-us-article{
+    padding-top:30px;
+}
+
 @media (max-width:1140px){
     .about-us-big-header{
         font-size:25px;
@@ -16,8 +25,4 @@
     .about-us-section{
         padding:0 50px;
     }
-}
-
-.about-us-article{
-    padding-top:30px;
 }

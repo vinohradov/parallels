@@ -39,7 +39,6 @@
     top:25px;
     bottom:25px;
     position:absolute;
-
 }
 
 .portfolio-hover-block:hover{
@@ -47,8 +46,21 @@
     transition:0.5s;
 }
 
+.portfolio-block-header{
+    font-size:20px;
+    font-weight:800;
+    margin-top:60px;
+}
 
+.portfolio-block-icons{
+    font-size:18px;
+    font-weight:800;
+    margin-top:20px;
+}
 
+.portfolio-icon{
+    padding-right:10px;
+}
 
 @media (max-width:1200px){
     .portfolio-section{

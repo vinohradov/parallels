@@ -4,12 +4,12 @@
 }
 
 .contacts-form-input {
-    width: 400px;
+    width: 408px;;
     padding: 10px 7px;
-    background: transparent;
     font-weight:600;
+    border:none;
+    background-color: #222327;
     color:white;
-    border:2px solid white;
     outline: none;
     margin-top:15px;
     margin-bottom:10px;
@@ -27,7 +27,6 @@
     padding-left:80px;
 }
 
-
 .contacts-information{
     font-size:18px;
     font-weight:400;
@@ -36,17 +35,23 @@
 
 @media (max-width:1200px){
     .textarea{
-        width:415px;
+        width: 403px;
     }
 
     .contact-us-right{
         padding-left:0;
     }
-
 }
 
 .contact-us-section{
     padding:0 50px;
+}
+
+@media (max-width:1200px){
+    .contacts-form-input {
+        width: 408px;;
+    }
+
 }
 
 @media (max-width:767px){

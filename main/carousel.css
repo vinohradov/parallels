@@ -8,6 +8,7 @@
     left:100px;
     top:300px;
     color:black;
+    margin-top: 45px
 }
 
 .carousel-left-quote{
@@ -23,13 +24,11 @@
     text-align: center;
 }
 
-
 .carousel-left-quote, .carousel-right-quote{
     position:absolute;
     color:grey;
     font-size:100px;
 }
-
 
 @media (max-width:1200px){
     .carousel-text{
