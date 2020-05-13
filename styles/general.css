@@ -101,13 +101,16 @@ a:hover{
     padding-top:40px;
 }
 
+.padding-right{
+    margin-right:200px;
+}
 
 .section-padding-bottom{
     padding-bottom:30px;
 }
 
 .padding-left{
-    padding-left:200px;
+    padding-left:100px;
 }
 
 
@@ -117,6 +120,11 @@ a:hover{
 
 .quotes{
     font-size:50px;
+}
+
+.ending-header{
+    font-size:20px;
+    font-weight:800;
 }
 
 @media (max-width:1200px){

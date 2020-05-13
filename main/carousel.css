@@ -5,8 +5,8 @@
 
 .carousel-text{
     position:absolute;
-    left:100px;
-    top:300px;
+    left:130px;
+    top: 35px;
     color:black;
     margin-top: 45px
 }
@@ -30,6 +30,15 @@
     font-size:100px;
 }
 
+.w-100 {
+    width: 50%!important;
+}
+
+.carousel-div{
+    width:500px;
+    height:450px;
+}
+
 @media (max-width:1200px){
     .carousel-text{
         top:100px;
@@ -39,10 +48,22 @@
     .carousel-left-quote, .carousel-right-quote{
         display:none;
     }
+
+    .w-100 {
+        width: 60%!important;
+    }
 }
 
-@media (max-width:725px){
-    .carousel-text{
-        top:10px;
+@media (max-width:940px){
+    .w-100 {
+        width: 80%!important;
+    }
+}
+
+
+
+@media (max-width:5460px){
+    .w-100 {
+        width: 100%!important;
     }
 }
