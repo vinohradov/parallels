@@ -14,6 +14,7 @@
     font-size:18px;
     color:white;
     padding-right:50px;
+    padding-bottom:40px;
 }
 
 .navigation-list__item {
@@ -21,13 +22,12 @@
 }
 
 .parallels-header{
-    padding-left: 14px;
+    padding-left: 35px;
 }
 
 .navigation-link {
     position: relative;
     transition:0.5s;
-
     color:white;
 }
 

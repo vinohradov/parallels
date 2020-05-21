@@ -28,10 +28,9 @@
     transition:0.5s;
 }
 
-@media (max-width:800px){
-    .connect-section-content{
-        padding:0 0 0 10px;
-    }
+.connect-big-header{
+    font-size:60px;
+    font-weight:800;
 }
 
 .icon{
@@ -43,4 +42,21 @@
 .icon:hover{
     color:rgba(1, 0, 202, 1);
     transition:0.5s;
+}
+
+@media (max-width:800px){
+    .connect-section-content{
+        padding:0 0 0 10px;
+    }
+}
+
+@media (max-width:450px){
+    .connect-header {
+        font-size: 50px;
+    }
+
+    .connect-big-header{
+        font-size:40px;
+        font-weight:800;
+    }
 }

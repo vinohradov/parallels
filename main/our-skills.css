@@ -5,19 +5,69 @@
     border-top: 35px solid #1f937d;
     border-left:  35px solid #1f937d;
     border-right: 35px solid #1f937d;
-    margin:0 20px;
+    margin:0 30px;
     white-space:nowrap;
 }
 
+.our-skills-header{
+    position: relative;
+    z-index: 1;
+}
 
+.our-skills-header:after{
+    position: absolute;
+    top: 29%;
+    margin-left: 5%;
+    overflow: hidden;
+    width: 32%;
+    height: 2px;
+    content: '\a0';
+    background-color: darkgrey;
+}
+
+.our-skills-header:before{
+    margin-left: -37%;
+    text-align: right;
+    position: absolute;
+    top: 29%;
+    overflow: hidden;
+    width: 32%;
+    height: 2px;
+    content: '\a0';
+    background-color: darkgrey;
+}
 
 .our-skills-interest{
     margin:20px 0 0 40px;
 }
 
 .our-skills-role{
-
     margin-top:20px;
+}
+
+@media (max-width:500px) {
+    .our-skills-header:after {
+        position: absolute;
+        top: 29%;
+        margin-left: 5%;
+        overflow: hidden;
+        width: 25%;
+        height: 2px;
+        content: '\a0';
+        background-color: darkgrey;
+    }
+
+    .our-skills-header:before {
+        margin-left: -30%;
+        text-align: right;
+        position: absolute;
+        top: 29%;
+        overflow: hidden;
+        width: 25%;
+        height: 2px;
+        content: '\a0';
+        background-color: darkgrey;
+    }
 
 }
 

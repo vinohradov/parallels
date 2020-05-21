@@ -41,6 +41,7 @@ a:hover{
 .container-fluid{
     padding-top:60px;
     padding-bottom:60px;
+
 }
 
 .section-content {
@@ -101,9 +102,7 @@ a:hover{
     padding-top:40px;
 }
 
-.padding-right{
-    margin-right:200px;
-}
+
 
 .section-padding-bottom{
     padding-bottom:30px;
@@ -127,6 +126,8 @@ a:hover{
     font-weight:800;
 }
 
+
+
 @media (max-width:1200px){
     .padding-left{
         padding-left:0;
@@ -135,14 +136,13 @@ a:hover{
 
 @media (max-width:970px){
     .very-big-header{
-        font-size:28px;
-
+        font-size:40px;
         white-space:nowrap;
     }
 }
 
 @media (max-width:460px){
-    .color-green{
-        padding-top:10px;
+    .color-green {
+        padding-top: 10px;
     }
 }

@@ -23,6 +23,10 @@
     margin-left:17px;
 }
 
+.contact-us-left{
+    padding-left:60px;
+}
+
 .contact-us-right{
     padding-left:80px;
 }
@@ -50,6 +54,12 @@
 @media (max-width:1200px){
     .contacts-form-input {
         width: 408px;;
+    }
+}
+
+@media (max-width:800px){
+    .contact-us-left{
+        padding-left:0;
     }
 
 }
