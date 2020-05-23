@@ -150,7 +150,6 @@
     }
 }
 
-
 @media (max-width:455px) {
     .carousel-header:after,  .carousel-header:before {
         display:none;

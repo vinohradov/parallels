@@ -81,5 +81,13 @@ li {
     .navigation-section{
         padding:0;
     }
+
+    .navigation-list__item {
+        margin-left:0;
+    }
+
+    .parallels-header {
+        padding-left: 0;
+    }
 }
 

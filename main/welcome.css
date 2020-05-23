@@ -3,10 +3,6 @@
     padding:170px 0;
 }
 
-.welcome-section-content{
-    padding:0 0 0 70px;
-}
-
 .welcome-header{
     font-size:60px;
     font-weight:400;
@@ -18,10 +14,6 @@
 }
 
 @media (max-width:530px){
-    .welcome-section-content{
-        padding:0;
-    }
-
     .welcome-header{
         font-size:40px;
         font-weight:400;

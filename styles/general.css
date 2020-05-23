@@ -102,7 +102,9 @@ a:hover{
     padding-top:40px;
 }
 
-
+.section-padding-left{
+    padding:0 0 0 60px;
+}
 
 .section-padding-bottom{
     padding-bottom:30px;
@@ -143,5 +145,11 @@ a:hover{
 @media (max-width:460px){
     .color-green {
         padding-top: 10px;
+    }
+}
+
+@media (max-width:550px){
+    .section-padding-left{
+        padding:0 0 0 0;
     }
 }

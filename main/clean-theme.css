@@ -3,10 +3,6 @@
     padding:100px 0;
 }
 
-.clean-section-content{
-    padding:0 0 0 70px;
-}
-
 .very-big-header-text{
     font-size:60px;
     font-weight:400;
@@ -21,10 +17,6 @@
 @media (max-width:653px){
     .clean-header-text{
         font-size:35px;
-    }
-
-    .clean-section-content{
-        padding:0 0 0 30px;
     }
 }
 

@@ -3,10 +3,6 @@
     padding:100px 0;
 }
 
-.our-team-section-content{
-    padding:0 0 0 70px;
-}
-
 .our-team-header{
     font-size:40px;
     font-weight:400;
@@ -16,9 +12,5 @@
     .our-team-header{
         font-size:40px;
         font-weight:400;
-    }
-
-    .our-team-section-content{
-        padding:0;
     }
 }

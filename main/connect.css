@@ -3,10 +3,6 @@
     padding:100px 0;
 }
 
-.connect-section-content{
-    padding:0 0 0 80px;
-}
-
 .connect-header{
     font-size:70px;
     font-weight:400;
@@ -44,11 +40,6 @@
     transition:0.5s;
 }
 
-@media (max-width:800px){
-    .connect-section-content{
-        padding:0 0 0 10px;
-    }
-}
 
 @media (max-width:450px){
     .connect-header {
