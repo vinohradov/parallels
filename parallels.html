@@ -45,6 +45,15 @@
 
     <div class="content-wrapper">
 
+        <div class="radio-buttons-section container-fluid">
+            <div class="section-content">
+                <p>Please select your preferred contact method:</p>
+                <button class="background-switcher" onclick="myFunction1()">change-backgrounds</button>
+                <button id='button'>hide 4 section</button>
+                <button onclick="myFunction3()">max-width-400px</button>
+            </div>
+        </div>
+
         <div class="navigation-section  container-fluid">
             <div class="navigation-section-content section-content">
                 <div class="parallels-header section-big-header">Parallels</div>
@@ -113,7 +122,7 @@
             </div>
         </div>
 
-        <div class="clean-theme-section">
+        <div class="clean-theme-section" id = "hidden-section"  >
             <div class="section-content section-padding-left">
                 <div class="container-fluid">
                     <div class="clean-theme-big-header text-left mobile-header">Do you like this theme?</div>
@@ -512,19 +521,19 @@
                             <div class="row">
                                 <div class="field field-1">
                                     <label>
-                                        <input class="contacts-form-input " type="text" placeholder="Name"/>
+                                        <input class="contacts-form-input input" type="text" placeholder="Name" name = "input"/>
                                     </label>
                                 </div>
                                 <div class="field field-2">
                                     <label>
-                                        <input class="contacts-form-input" type="text" placeholder="Mail"/>
+                                        <input class="contacts-form-input" type="text" placeholder="Mail" name = "input"/>
                                     </label>
                                 </div>
                             </div>
 
-                            <div class=" field">
+                            <div class="field">
                                 <label>
-                                    <textarea class="textarea contacts-form-input" type="text" placeholder="Message"></textarea>
+                                    <textarea class="textarea contacts-form-input" type="text" placeholder="Message" name = "input"></textarea>
                                 </label>
                             </div>
                             <button class="btn-default bg-blue">Submit mail</button>
@@ -629,6 +638,8 @@
     </div>
 
 </div>
+
+<script src="script1.js"></script>
 
 </body>
 </html>
