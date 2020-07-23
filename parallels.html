@@ -45,12 +45,15 @@
 
     <div class="content-wrapper">
 
-        <div class="radio-buttons-section container-fluid">
+        <div class="buttons-section container-fluid">
             <div class="section-content">
                 <p>Please select your preferred contact method:</p>
-                <button class="background-switcher" onclick="myFunction1()">change-backgrounds</button>
+                <button id="background-switcher">change-backgrounds</button>
                 <button id='button'>hide 4 section</button>
                 <button onclick="myFunction3()">max-width-400px</button>
+                <label>
+                    <input class="contacts-form-input input" type="text" placeholder="Name" name = "input"/>
+                </label>
             </div>
         </div>
 
@@ -73,7 +76,7 @@
 
         </div>
 
-        <div class="welcome-section">
+        <div class="welcome-section" id="welcome-section">
             <div class="section-content section-padding-left">
                 <div class="container-fluid">
                     <div class="welcome-header">Welcome to Parallax</div>
@@ -82,7 +85,7 @@
             </div>
         </div>
 
-        <div class="our-services-section container-fluid">
+        <div class="our-services-section container-fluid" id="our-services-section">
             <div class="section-content">
                 <div class="section-big-header text-center">Our Services</div>
 
@@ -533,7 +536,7 @@
 
                             <div class="field">
                                 <label>
-                                    <textarea class="textarea contacts-form-input" type="text" placeholder="Message" name = "input"></textarea>
+                                    <textarea class="textarea contacts-form-input" type="text" placeholder="Message" name = "textarea"></textarea>
                                 </label>
                             </div>
                             <button class="btn-default bg-blue">Submit mail</button>
@@ -640,6 +643,12 @@
 </div>
 
 <script src="script1.js"></script>
+<script src="script2.js"></script>
+<script src="script3.js"></script>
+<script src="script4.js"></script>
+<script src="script5.js"></script>
+
+
 
 </body>
 </html>
