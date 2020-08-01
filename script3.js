@@ -1,6 +1,8 @@
 (function task3(){
-    var $inputs = $(":input");
-    $inputs.on('input ',function() {
-        $('textarea[name="' + this.name + '"]').val($(this).val());
+    var syncInputs = document.getElementById("input");
+
+    syncInputs.addEventListener("input",function(){
+        var textarea = document.getElementById( "textarea");
+        textarea.value = syncInputs.value;
     });
 })();

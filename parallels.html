@@ -40,7 +40,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </head>
-<body>
+<body id = "body">
 <div class="main">
 
     <div class="content-wrapper">
@@ -50,10 +50,14 @@
                 <p>Please select your preferred contact method:</p>
                 <button id="background-switcher">change-backgrounds</button>
                 <button id='button'>hide 4 section</button>
-                <button onclick="myFunction3()">max-width-400px</button>
+                <button id='max-width'>max-width:400</button>
                 <label>
-                    <input class="contacts-form-input input" type="text" placeholder="Name" name = "input"/>
+                    <input class="contacts-form-input input" type="text" placeholder="Name" id="input"/>
                 </label>
+                <label>
+                    <input id="delete-input"/>
+                </label>
+                <button id='delete'>Delete</button>
             </div>
         </div>
 
@@ -69,7 +73,7 @@
                         <li class="navigation-list__item"><a class="navigation-link" href="#carousel">Event</a></li>
                         <li class="navigation-list__item"><a class="navigation-link" href="#our-price">Shop</a></li>
                         <li class="navigation-list__item"><a class="navigation-link" href="#contact-us">Contacts</a></li>
-                        <i class="navigation-list__item navigation-link fas fa-layer-group"></i>
+                        <li class="navigation-list__item navigation-link fas fa-layer-group"></li>
                     </ul>
                 </nav>
             </div>
@@ -88,7 +92,6 @@
         <div class="our-services-section container-fluid" id="our-services-section">
             <div class="section-content">
                 <div class="section-big-header text-center">Our Services</div>
-
                 <div class="row">
                     <div class="col-xs-11 col-sm-6 col-md-3 text-center">
                         <div class="our-services-article align-items-center justify-content-center">
@@ -97,7 +100,6 @@
                             <div class="our-services-header-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque dolorum eos in libero nam voluptatem?</div>
                         </div>
                     </div>
-
                     <div class="col-xs-12 col-sm-6 col-md-3  text-center">
                         <div class="our-services-article align-items-center justify-content-center">
                             <div class="our-services-circle"><i class="fab fa-steam"></i></div>
@@ -105,7 +107,6 @@
                             <div class="our-services-header-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, cupiditate eaque fugit incidunt maxime quia.</div>
                         </div>
                     </div>
-
                     <div class="col-xs-12 col-sm-6 col-md-3 text-center">
                         <div class="our-services-article align-items-center justify-content-center">
                             <div class="our-services-circle"><i class="fas fa-trash-alt"></i></div>
@@ -113,7 +114,6 @@
                             <div class="our-services-header-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores consectetur culpa obcaecati quo. Nam?</div>
                         </div>
                     </div>
-
                     <div class="col-xs-12 col-sm-6 col-md-3  text-center">
                         <div class="our-services-article align-items-center justify-content-center">
                             <div class="our-services-circle"><i class="fas fa-camera"></i></div>
@@ -157,7 +157,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 col-xl-3">
                         <div class="portfolio-article">
                             <div class="portfolio-hover-block justify-content-center align-items-center">
@@ -170,7 +169,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 col-xl-3">
                         <div class="portfolio-article">
                             <div class="portfolio-hover-block justify-content-center align-items-center">
@@ -183,7 +181,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 col-xl-3">
                         <div class="portfolio-article">
                             <div class="portfolio-hover-block">
@@ -196,7 +193,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 col-xl-3">
                         <div class="portfolio-article">
                             <div class="portfolio-hover-block">
@@ -209,7 +205,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 col-xl-3">
                         <div class="portfolio-article">
                             <div class="portfolio-hover-block">
@@ -250,11 +245,6 @@
                     </div>
                     </div>
                 </div>
-
-
-
-
-
             </div>
 
         <div class="pricing-table-section">
@@ -269,7 +259,6 @@
         <div id="our-price" class="our-price-section container-fluid">
             <div class="section-content">
                 <div class="section-big-header text-center">Our Price</div>
-
                 <div class="row align-items-center justify-content-center portfolio-block-list">
                     <div class="col-xs-12 col-sm-6 col-md-4">
                         <div class="our-price-article">
@@ -283,7 +272,6 @@
                             <div class="button text-center"><button class="btn-default col-md-6 bg-green white">Purchaise</button></div>
                         </div>
                     </div>
-
                     <div class="col-xs-12 col-sm-6 col-md-4">
                         <div class="our-price-article bg-white">
                             <div class="section-normal-header text-center padding-top">Resseler Cloud</div>
@@ -296,7 +284,6 @@
                             <div class="button text-center"><button class="btn-default col-md-6 bg-green white">Purchaise</button></div>
                         </div>
                     </div>
-
                     <div class="col-xs-12 col-sm-6 col-md-4">
                         <div class="our-price-article">
                             <div class="section-normal-header text-center padding-top">Dedicated Hosting</div>
@@ -309,8 +296,6 @@
                             <div class="button text-center"><button class="btn-default col-md-6 bg-green white">Purchaise</button></div>
                         </div>
                     </div>
-
-
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="our-price-article bg-white">
                             <div class="section-normal-header text-center padding-top">Website Hosting</div>
@@ -323,7 +308,6 @@
                             <div class="button text-center"><button class="btn-default col-md-6 bg-green white">Purchaise</button></div>
                         </div>
                     </div>
-
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="our-price-article bg-white">
                             <div class="section-normal-header text-center padding-top">Website Hosting</div>
@@ -336,7 +320,6 @@
                             <div class="button text-center"><button class="btn-default col-md-6 bg-green white">Purchaise</button></div>
                         </div>
                     </div>
-
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="our-price-article bg-white">
                             <div class="section-normal-header text-center padding-top">Dedicat Hosting</div>
@@ -349,7 +332,6 @@
                             <div class="button text-center"><button class="btn-default col-md-6 bg-green white">Purchaise</button></div>
                         </div>
                     </div>
-
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="our-price-article bg-white">
                             <div class="section-normal-header text-center padding-top">Dedicat Hosting</div>
@@ -437,7 +419,6 @@
         <div class="about-us-section container-fluid" id="about-us">
             <div class="section-content">
                 <div class="section-big-header text-center section-padding-bottom">About Us</div>
-
                 <div class="row align-items-center justify-content-center">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-3">
                         <div class="about-us-article text-center">
@@ -447,7 +428,6 @@
                             <div class="section-mini-header about-us-text col-sm-10 col-xs-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dicta inventore libero quo saepe tempore!</div>
                         </div>
                     </div>
-
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-3">
                         <div class="about-us-article text-center">
                             <img src="images/Photo-14.png" alt="">
@@ -456,7 +436,6 @@
                             <div class="section-mini-header about-us-text col-sm-10 col-xs-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dicta inventore libero quo saepe tempore!</div>
                         </div>
                     </div>
-
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-3">
                         <div class="about-us-article text-center">
                             <img src="images/Photo-15.png" alt="">
@@ -465,7 +444,6 @@
                             <div class="section-mini-header about-us-text col-sm-10 col-xs-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dicta inventore libero quo saepe tempore!</div>
                         </div>
                     </div>
-
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-3">
                         <div class="about-us-article text-center">
                             <img src="images/Photo-16.png" alt="">
@@ -481,23 +459,23 @@
         <div id="our-skills" class="our-skills-section container-fluid">
             <div class="section-big-header text-center our-skills-header">Our Skills</div>
             <div class="row  justify-content-center">
-                <div class="our-skills-arc section-normal-header">
+                <div class="our-skills-arc section-normal-header our-skill-item">
                     <div class="our-skills-interest">35%</div>
                     <p class="our-skills-role">Web-Design</p>
                 </div>
-                <div class="our-skills-arc section-normal-header">
+                <div class="our-skills-arc section-normal-header our-skill-item">
                     <div class="our-skills-interest">85%</div>
                     <p class="our-skills-role">Creative</p>
                 </div>
-                <div class="our-skills-arc section-normal-header">
+                <div class="our-skills-arc section-normal-header our-skill-item">
                     <div class="our-skills-interest">95%</div>
                     <p class="our-skills-role">Ui-Design</p>
                 </div>
-                <div class="our-skills-arc section-normal-header">
+                <div class="our-skills-arc section-normal-header our-skill-item">
                     <div class="our-skills-interest">25%</div>
                     <p class="our-skills-role">Prototypes</p>
                 </div>
-                <div class="our-skills-arc section-normal-header">
+                <div class="our-skills-arc section-normal-header our-skill-item">
                     <div class="our-skills-interest">50%</div>
                     <p class="our-skills-role">Prototypes</p>
                 </div>
@@ -524,25 +502,24 @@
                             <div class="row">
                                 <div class="field field-1">
                                     <label>
-                                        <input class="contacts-form-input input" type="text" placeholder="Name" name = "input"/>
+                                        <input class="contacts-form-input input" type="text" placeholder="Name"/>
                                     </label>
                                 </div>
                                 <div class="field field-2">
                                     <label>
-                                        <input class="contacts-form-input" type="text" placeholder="Mail" name = "input"/>
+                                        <input class="contacts-form-input" type="text" placeholder="Mail"/>
                                     </label>
                                 </div>
                             </div>
 
                             <div class="field">
                                 <label>
-                                    <textarea class="textarea contacts-form-input" type="text" placeholder="Message" name = "textarea"></textarea>
+                                    <textarea class="textarea contacts-form-input" type="text" placeholder="Message" id = "textarea"></textarea>
                                 </label>
                             </div>
                             <button class="btn-default bg-blue">Submit mail</button>
                         </div>
                     </div>
-
                     <div class="col-md-3 contact-us-right">
                         <div class="section-normal-header">MORE INFO</div>
                         <div class="contact-us-line"></div>
@@ -553,8 +530,6 @@
                                 <a href="mailto:info@domain.com"> info@domain.com</a>
                             </p>
                         </div>
-
-
                         <div class="contacts-information">
                             <p>Salk Talke City. UT</p>
                             <p>John Dowl</p>
