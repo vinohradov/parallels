@@ -1,8 +1,8 @@
 (function task5(){
-    var deleteButton = document.getElementById("delete");
+    var addButton = document.getElementById("delete");
     var input = document.getElementById("delete-input");
 
-        deleteButton.addEventListener('click', function () {
+    addButton.addEventListener('click', function () {
 
             var ourSkillItems = document.getElementsByClassName("our-skill-item");
             console.log(ourSkillItems);
@@ -15,3 +15,4 @@
                 ourSkillItems[inputValue].style.display = 'none';
         });
 })();
+
