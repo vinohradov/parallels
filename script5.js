@@ -3,7 +3,6 @@
     var input = document.getElementById("delete-input");
 
     addButton.addEventListener('click', function () {
-
             var ourSkillItems = document.getElementsByClassName("our-skill-item");
             console.log(ourSkillItems);
                 ourSkillItems[0].style.display = 'block';
