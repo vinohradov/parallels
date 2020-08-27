@@ -1,0 +1,157 @@
+.carousel-section{
+    position:relative;
+    padding-bottom:60px;
+}
+
+.carousel-text{
+    position:absolute;
+    left:130px;
+    top: 35px;
+    color:black;
+    margin-top: 45px
+}
+
+.carousel-left-quote{
+    left:250px;
+    top:5px;
+    text-align: center;
+}
+
+.carousel-right-quote{
+    left:800px;
+    top:5px;
+    text-align: center;
+}
+
+.carousel-left-quote, .carousel-right-quote{
+    position:absolute;
+    color:grey;
+    font-size:100px;
+}
+
+.w-100 {
+    width: 50%!important;
+}
+
+.carousel-div{
+    height:290px;
+}
+
+.carousel-mini-text{
+    padding-top:10px;
+    padding-left:10px;
+}
+
+.carousel-header{
+    position: relative;
+    z-index: 1;
+    font-size:35px;
+    font-weight:600;
+}
+
+.carousel-header:after{
+    position: absolute;
+    top: 32%;
+    margin-left: 5%;
+    overflow: hidden;
+    width: 25%;
+    height: 2px;
+    content: '\a0';
+    background-color: darkgrey;
+}
+
+.carousel-header:before{
+    margin-left: -29%;
+    text-align: right;
+    position: absolute;
+    top: 32%;
+    overflow: hidden;
+    width: 25%;
+    height: 2px;
+    content: '\a0';
+    background-color: darkgrey;
+}
+
+@media (max-width:1200px){
+    .carousel-text{
+        top:65px;
+        left:0;
+    }
+
+    .carousel-indicators{
+        top:291px;
+    }
+
+    .carousel-left-quote, .carousel-right-quote{
+        display:none;
+    }
+
+    .carousel-mini-text{
+       padding:0;
+    }
+}
+
+@media (max-width:790px){
+    .carousel-header:after{
+        position: absolute;
+        top: 38%;
+        margin-left: 5%;
+        overflow: hidden;
+        width: 15%;
+        height: 2px;
+        content: '\a0';
+        background-color: darkgrey;
+    }
+
+    .carousel-header:before{
+        margin-left: -20%;
+        text-align: right;
+        position: absolute;
+        top: 38%;
+        overflow: hidden;
+        width: 15%;
+        height: 2px;
+        content: '\a0';
+        background-color: darkgrey;
+    }
+
+    .carousel-mini-text{
+        padding-top:0;
+    }
+}
+
+@media (max-width:575px){
+    .carousel-mini-text{
+        width:70%;
+        padding:0;
+    }
+
+    .carousel-header:after{
+        position: absolute;
+        top: 38%;
+        margin-left: 5%;
+        overflow: hidden;
+        width: 10%;
+        height: 2px;
+        content: '\a0';
+        background-color: darkgrey;
+    }
+
+    .carousel-header:before{
+        margin-left: -15%;
+        text-align: right;
+        position: absolute;
+        top: 38%;
+        overflow: hidden;
+        width: 10%;
+        height: 2px;
+        content: '\a0';
+        background-color: darkgrey;
+    }
+}
+
+@media (max-width:455px) {
+    .carousel-header:after,  .carousel-header:before {
+        display:none;
+    }
+}

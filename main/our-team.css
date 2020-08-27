@@ -1,0 +1,16 @@
+.our-team-section{
+    background-color:rgba(145, 104, 10, 1);
+    padding:100px 0;
+}
+
+.our-team-header{
+    font-size:40px;
+    font-weight:400;
+}
+
+@media (max-width:570px){
+    .our-team-header{
+        font-size:40px;
+        font-weight:400;
+    }
+}

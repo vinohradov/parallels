@@ -1,0 +1,40 @@
+.our-price-article{
+    background-color: #313338;
+    margin-top:15px;
+
+    border-radius:10px;
+}
+
+.bg-white{
+    background:white;
+    color:#313338;
+}
+.our-price-button{
+    display: inline-block;
+    padding: 25px 4.7px;
+    margin: 40px 0 20px;
+    min-width:170px;
+    border:0;
+    text-transform: uppercase;
+    font-weight:700;
+    transition:0.5s;
+    color: #484f5b;
+    text-align:center;
+    border-radius:10px;
+}
+
+.our-price-text{
+    font-size:20px;
+    font-weight:600;
+    margin:7px 0;
+}
+
+.our-price-section{
+    padding:0 100px;
+}
+
+@media (max-width:1000px){
+    .our-price-section{
+        padding:0 40px;
+    }
+}

@@ -1,0 +1,66 @@
+.recent-header:after{
+    content: " ";
+    position: absolute;
+    left: 15px;
+    right: 0;
+    top: 51px;
+    display: inline-block;
+    width: 254px;
+    height: 2px;
+    background: gray;
+    text-align:center;
+}
+
+.recent-icon{
+    color:#9ACD32;
+    margin-top:15px;
+}
+
+.recent-header{
+    font-size:25px;
+    font-weight:600;
+}
+
+.recent-images{
+    text-align:left;
+    padding:50px 0 0 0;
+}
+
+.recent-text{
+    padding-top:50px;
+    font-size:20px;
+    color:darkgrey;
+    font-weight:400;
+}
+
+.recent-images{
+    text-align:left;
+}
+
+@media (max-width:1400px){
+    .recent-header:after{
+        display:none;
+    }
+
+    .recent-column{
+        padding-top:50px;
+    }
+
+    .recent-text{
+        padding-top:20px;
+    }
+
+    .recent-images{
+        text-align:center;
+    }
+
+    .recent-section-content{
+        text-align:center;
+    }
+}
+
+@media (max-width:991px){
+    .recent-images{
+        margin:0 auto;
+    }
+}
